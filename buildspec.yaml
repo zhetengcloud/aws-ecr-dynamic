@@ -2,6 +2,8 @@ version: 0.2
 
 phases:
   pre_build:
+    runtime-versions:
+      alpine: latest
     commands:
       - echo Nothing to do in the pre_build phase...
   build:
